@@ -13,7 +13,7 @@ namespace api.Models
             using var con = new MySqlConnection(cs);
             con.Open();
 
-            string stm = @"INSERT INTO gd3tupr0j8015uob.cars (carID, make, model, mileage, date, hold, deleted) VALUES(@carID, @make, @model, @mileage, @date, @hold, @deleted)";
+            string stm = @"INSERT INTO (carID, make, model, mileage, date, hold, deleted) VALUES(@carID, @make, @model, @mileage, @date, @hold, @deleted)";
 
             using var cmd = new MySqlCommand(stm,con);
 

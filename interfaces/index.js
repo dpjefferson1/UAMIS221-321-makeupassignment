@@ -94,28 +94,6 @@ function populateTable(cars)
 //--------------------------------------------------------------------------------
 
 
-// async function handleAddCar() {
-//     const car = {
-//         carID: uuidv4(),
-//         make: document.getElementById('make').value,
-//         model: document.getElementById('model').value,
-//         mileage: document.getElementById('mileage').value,
-//         date: document.getElementById('date').value,
-//         hold: false,
-//         deleted: false
-//     };
-    
-//     await addToAPI(car);
-//     cars.push(car);
-//     localStorage.setItem('cars', JSON.stringify(cars));
-
-//     populateTable();
-
-//     document.getElementById('make').value = '';
-//     document.getElementById('model').value = '';
-//     document.getElementById('mileage').value = '';
-//     document.getElementById('date').value = '';
-// }
 async function handleAddCar() {
     console.log("start")
 

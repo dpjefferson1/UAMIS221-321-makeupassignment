@@ -14,8 +14,6 @@ namespace api.Models
             using var con = new MySqlConnection(cs);
             con.Open();
 
-            string stm = @"SELECT * FROM gd3tupr0j8015uob.cars ORDER BY date asc;";
-
             using var cmd = new MySqlCommand(stm,con);
 
 
