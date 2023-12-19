@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\UAMIS221-321-makeupassignment.props" />
+</Project>
